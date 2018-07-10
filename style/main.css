@@ -1,6 +1,16 @@
+
+
 body {
   margin: 0;
   padding: 0;
+}
+.wrapper{
+  width:1357px;
+  min-height:753px;
+  margin:10px auto;
+  background-color:;
+  border-radius:30px 0px 30px 0px;
+
 }
 
 .logo {
@@ -14,7 +24,7 @@ height:100px;
 
 #navigation-container {
   width: 1200px;
-  margin:auto;
+  margin: auto;
   height: 200px;
 
 
@@ -33,11 +43,15 @@ background-color: #8A7132;
 }
 
 #navigation-container ul{
-  padding: 2px;
+
+  padding: 20px;
   margin: 2px;
   text-align: center;
   float: right;
   background:none;
+  position: absolute;
+    top: 0px;
+    right: 50px;
 
 }
 #navigation-container li {
@@ -50,14 +64,55 @@ background-color: #8A7132;
 
 }
 #navigation-container li a {
+
   color: white;
-  font-size: 16px;
-  font-family: "";
+  font-size: 30px;
+  font-family: "Chela One";
   text-decoration: none;
   line-height: 70px;
   padding: 5px 15px;
   opacity: 0.7;
 }
-#menu {
-  float: right;
+
+
+
+.myheading{
+  font-size:30px;
+  color:#ff0000;
+  border-right:3px solid #ff0000;
 }
+}
+
+.box{
+  width:220px;
+  min-height:200px;
+  background-color: #ffccdd;
+  float:left;
+  margin:5px;
+  padding:5px;
+  border-radius:0px 20px 20px 20px;
+}
+
+.clear{
+  clear:both;
+}
+
+.row{
+  min-height:1px;
+  font-family: "Gaegu";
+}
+
+
+.col100{
+  width:100%; min-height:50px;
+}
+.col50{
+  width:49%;  min-height:50px;  float:left;
+}
+.col75{
+  width:73%;
+  min-height:50px; float:left;
+}
+.col25{
+  width:20%;  min-height:50px; float:left; margin-right:10px;
+ padding: 20px;}
