@@ -1,5 +1,63 @@
-.color-green{
-	background-color: #fff;
-	color: green;
-	 text-align: center;	
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+ 
+width:144px;
+height:100px;
+
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin:auto;
+  height: 200px;
+
+
+}
+
+.navigation-bar {
+background-color: #8A7132;
+
+  height: 100px;
+  width: 100%;
+  float: right;
+}
+
+#navigation-container img {
+  float: left;
+}
+
+#navigation-container ul{
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+  float: right;
+  background:none;
+
+}
+#navigation-container li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+
+}
+#navigation-container li a {
+  color: white;
+  font-size: 16px;
+  font-family: "";
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+#menu {
+  float: right;
 }
