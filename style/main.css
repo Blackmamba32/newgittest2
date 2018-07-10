@@ -116,3 +116,6 @@ background-color: #8A7132;
 .col25{
   width:20%;  min-height:50px; float:left; margin-right:10px;
  padding: 20px;}
+.a {
+    text-indent: 50px;
+}
