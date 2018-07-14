@@ -13,48 +13,48 @@ body {
 
 }
 .logo{
- width:150px;
- height: 70px;
-  text-align: center;
-  float:left auto;
-  position: absolute;
-    left:50px;
-    
-  }
- .logo img{
-  width:150px;
-  height: 70px;
+
+
 }
 .logo:hover{
-  transform: translate(0px,-68px);
-  transition: all 1s ease-in-out;
+  animation:logo 1000ms 1;
+  animation-fill-mode: forwards;
+}
+@keyframes logo{
+  from{}
+  to{
+  transform: translate(-60%);}
 
 }
+.logo img{
+height: 70px;
+width:150px;
+display: inline-block;
+margin-right: 20px;
+    overflow: auto;
 
+}
 #logo2{
-  width:10px;
-  height:10px;
-opacity: 1;
-
-  
+  opacity: 0;
 }
 #logo2:hover{
-  width:190px;
-  height:80px;
-      animation: myframe 0.7s infinite;
-    
+  animation: abc 100ms 1;
+  animation-fill-mode:forwards;
+}
+  @keyframes abc{
+    0%{
+      opacity: 0;
+    }
+    25%{
+      opacity:.25;}
+      75%{
+        opacity: .75;
+      }
+      100%{
+        opacity: 1;
+      }
+  }
 
-
-}
-@keyframes myframe{
-to{
-  opacity: 1;
-}
-from{
-opacity: 0;
-}
-}
-}
 .col50 img{
   padding-left: 10px;
   border-radius: 10px;
